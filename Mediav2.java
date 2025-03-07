@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-    public class Mediav2{
+    public class Media{
         
      public static void main(String[] args){
      
@@ -12,7 +12,7 @@ import java.util.Scanner;
          int nota2 = scanner.nextInt();
         int media = (nota1 + nota2) /2;
     switch (media){
-        case 10: System.out.println("Você está aprovado com EXELENCIA!");
+        case 10: System.out.println("Você está aprovado com EXCELÊNCIA!");
             
             break;
          case 9, 8, 7: System.out.println("Você está aprovado!");
