@@ -13,7 +13,10 @@ import java.util.Scanner;
         double media = (nota1 + nota2) /2;
      if (media>=7){
         System.out.println("Você está aprovado!");
+     }else {
+        System.out.println("Você está Reprovado!");
      }
+
 
 
   scanner.close();
